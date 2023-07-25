@@ -40,6 +40,7 @@ func main() {
 	age := 26
 	name := "Harry"
 	fmt.Printf("My name is %v and I'm %v years old\n", name, age) //formatted strings, %v (variable) is replaced with the value of the variable
-	// We also have %q for quotes, %T gives the typ
+	// We also have %q for quotes, %T gives the type, %f for floats, %e for exponents, %x for hex, %b for binary
 	fmt.Printf("Age is of type %T", age)
+	// var str = fmt.Sprintf("My name is %v and I'm %v years old\n", name, age) // Saves a formatted string to a variable
 }
